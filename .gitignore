@@ -1,45 +1,8 @@
-# ===========================
-# 📦 GENERAL GITIGNORE FOR PYTHON + JUPYTER PROJECTS
-# ===========================
+# Ignore everything by default
+*
 
-# --- Ignore all bytecode and cache ---
-__pycache__/
-*.py[cod]
-*$py.class
-
-# --- Ignore virtual environments ---
-venv/
-.env/
-.venv/
-env/
-ENV/
-
-# --- Ignore Jupyter Notebook checkpoints ---
-.ipynb_checkpoints/
-
-# --- Ignore logs and temporary files ---
-*.log
-*.tmp
-*.bak
-*.swp
-.DS_Store
-Thumbs.db
-
-# --- Ignore dataset files (optional; uncomment if needed) ---
-# *.csv
-# *.xlsx
-# *.zip
-
-# --- Ignore IDE / editor settings ---
-.vscode/
-.idea/
-
-# --- Keep these important files ---
-!.gitignore
-!*.ipynb
-!*.py
-!requirements.txt
-!README.md
-
-# Keep only this notebook
+# Keep only this notebook and git config
 !OASIS 2.ipynb
+!.gitignore
+
+
