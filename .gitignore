@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# But keep this notebook
+!OASIS 2.ipynb
+!.gitignore
